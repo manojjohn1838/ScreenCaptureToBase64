@@ -1,0 +1,1 @@
+# ScreenCaptureToBase64
