@@ -4,9 +4,9 @@
 
 ScreenCaptureToBase64 is a custom-java-action used for Convert the Screen Shot to Base64 focused on Storing the Content in String Format inside Mendix for transportation Purposes.
 Base64 Captured Screen Shot Can Converted into System.Image or System.FileDocument Object Using the Community Commons Module Java Action Base64Decode.
-Dependencies:
-Studio pro version – 9.12.10
-Configuration:
+## Dependencies:
+Studio pro version – 9.12.10  Prerequisite: Community Commons
+## Configuration:
 To get started with ScreenCaptureToBase64, a Java Action, first download the ScreenCaptureToBase64 Module from Mendix MarketPlace.
 Create a Microflow with the ScreenShotEncodeBase64 Java Action to capture the ScreenShot and convert into Base64 Content.
 You can Either Save this content in a String Attribute of desired Entity Object,  And Convert the Base64 String to System.Image or System.FileDocument based on your requirement.
